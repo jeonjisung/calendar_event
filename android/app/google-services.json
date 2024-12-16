@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "773069467139",
+    "project_id": "calendare-12904",
+    "storage_bucket": "calendare-12904.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773069467139:android:33a5fa77f44f0774d16836",
+        "android_client_info": {
+          "package_name": "com.example.calendar_event"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQKwYQoWv1aDIXPVunH-oqmFWSTMCISzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
