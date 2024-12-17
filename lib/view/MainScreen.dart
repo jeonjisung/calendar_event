@@ -4,6 +4,8 @@ import 'package:calendar_event/viewmodel/ReservationViewModel.dart';
 import 'package:provider/provider.dart';
 
 class MainScreen extends StatelessWidget {
+  const MainScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
@@ -25,7 +27,7 @@ class MainScreen extends StatelessWidget {
                   (d) => isSameDay(d, day),
                   orElse: () => DateTime.now(), // null이 반환될 수 있는 경우 처리
                 );
-                return selectedDate != null && isSameDay(selectedDate, day);
+                return isSameDay(selectedDate, day);
               },
               onDaySelected: (selectedDay, _) {
                 _showReservationDialog(context, selectedDay, viewModel);
